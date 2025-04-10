@@ -55,3 +55,6 @@ We will build a BookStore application using Spring Boot, Spring Cloud, and Docke
 - Install [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - Install [IntelliJ IDEA](https://www.jetbrains.com/idea) or any of your favorite IDE
 - Install [Postman](https://www.postman.com/) or any REST Client
+
+## Build Success
+![BUILD SUCCESS](docs/Build Success.jpg)
