@@ -7,7 +7,7 @@ services:
       - SPRING_PROFILES_ACTIVE=docker
       - DB_URL=jdbc:postgresql://catalog-db:5432/postgres
       - DB_USERNAME=postgres
-      - DB_PASSWORD=postgres
+      - DB_PASSWORD=root
       - SWAGGER_API_GATEWAY_URL=http://api-gateway:8989/catalog
       - MANAGEMENT_TRACING_ENABLED=true
       - MANAGEMENT_ZIPKIN_TRACING_ENDPOINT=http://tempo:9411
@@ -32,7 +32,7 @@ services:
       - ORDERS_CATALOG_SERVICE_URL=http://api-gateway:8989/catalog
       - DB_URL=jdbc:postgresql://orders-db:5432/postgres
       - DB_USERNAME=postgres
-      - DB_PASSWORD=postgres
+      - DB_PASSWORD=root
       - RABBITMQ_HOST=bookstore-rabbitmq
       - RABBITMQ_PORT=5672
       - RABBITMQ_USERNAME=guest
@@ -63,7 +63,7 @@ services:
       - SPRING_PROFILES_ACTIVE=docker
       - DB_URL=jdbc:postgresql://notifications-db:5432/postgres
       - DB_USERNAME=postgres
-      - DB_PASSWORD=postgres
+      - DB_PASSWORD=root
       - RABBITMQ_HOST=bookstore-rabbitmq
       - RABBITMQ_PORT=5672
       - RABBITMQ_USERNAME=guest

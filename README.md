@@ -1,4 +1,4 @@
-# Spring Boot Microservices Course
+# Spring Boot Microservices
 
 This repository contains the source code for the [Spring Boot Microservices].
 
@@ -57,4 +57,4 @@ We will build a BookStore application using Spring Boot, Spring Cloud, and Docke
 - Install [Postman](https://www.postman.com/) or any REST Client
 
 ## Build Success
-![BUILD SUCCESS](docs/Build Success.jpg)
+![BUILD SUCCESS](docs/Build-Success.jpg)
