@@ -10,7 +10,7 @@
         <version>3.4.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sivalabs</groupId>
+    <groupId>com.microservices</groupId>
     <artifactId>bookstore-webapp</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>bookstore-webapp</name>
@@ -18,7 +18,7 @@
     <properties>
         <java.version>21</java.version>
         <spotless-maven-plugin.version>2.44.3</spotless-maven-plugin.version>
-        <dockerImageName>sivaprasadreddy/${project.artifactId}</dockerImageName>
+        <dockerImageName>dsouvik/${project.artifactId}</dockerImageName>
     </properties>
     <dependencies>
         <dependency>

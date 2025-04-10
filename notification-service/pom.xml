@@ -10,7 +10,7 @@
         <version>3.4.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sivalabs</groupId>
+    <groupId>com.microservices</groupId>
     <artifactId>notification-service</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>notification-service</name>
@@ -18,7 +18,7 @@
     <properties>
         <java.version>21</java.version>
         <spotless-maven-plugin.version>2.44.3</spotless-maven-plugin.version>
-        <dockerImageName>sivaprasadreddy/bookstore-${project.artifactId}</dockerImageName>
+        <dockerImageName>dsouvik/bookstore-${project.artifactId}</dockerImageName>
     </properties>
     <dependencies>
         <dependency>
@@ -160,12 +160,12 @@
                 <version>${spotless-maven-plugin.version}</version>
                 <configuration>
                     <java>
-                        <importOrder />
-                        <removeUnusedImports />
+                        <importOrder/>
+                        <removeUnusedImports/>
                         <palantirJavaFormat>
                             <version>2.35.0</version>
                         </palantirJavaFormat>
-                        <formatAnnotations />
+                        <formatAnnotations/>
                     </java>
                 </configuration>
                 <executions>
